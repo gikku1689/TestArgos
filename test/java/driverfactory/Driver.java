@@ -41,10 +41,12 @@ public class Driver
      {
          driver.quit();
      }
+
      public void navigateto(String url)
      {
          driver.get(url);
      }
+
     public void applyImpcitWait() {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
